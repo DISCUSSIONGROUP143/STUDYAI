@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "studyai",
+  "main": "worker.js",
+  "compatibility_date": "2025-02-04",
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "1d13906a6c374943833c79fec08bbf79"
+    }
+  ],
+  "vars": {
+    "GEMINI_MODEL": "gemini-3.8-flash",
+    "OPENAI_MODEL": "gpt-5.6",
+    "ALLOWED_ORIGIN": "https://studyai-awn.pages.dev"
+  }
+}
