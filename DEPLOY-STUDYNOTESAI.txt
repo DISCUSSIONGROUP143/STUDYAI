@@ -1,7 +1,0 @@
-StudyNotesAI separate site
-
-- Main page: existing index.html (preserved unchanged)
-- Existing folders/assets: preserved
-- Deploy this folder as a separate Cloudflare Pages project.
-- Suggested project name: studynotesai
-- Do not connect this site to the old study-notes-7lw.pages.dev project.
