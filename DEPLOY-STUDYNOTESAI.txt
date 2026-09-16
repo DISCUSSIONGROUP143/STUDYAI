@@ -1,0 +1,12 @@
+StudyAI — Cloudflare Pages deployment
+
+- Main page: index.html
+- Cloudflare Pages Function: functions/[[path]].js
+- AI: Gemini only. The Gemini API key is entered manually and kept only in page memory.
+- No OpenAI/ChatGPT backend or fallback.
+- No Gemini API-key KV storage.
+- No Cloudflare KV is required.
+- Telegram Logs use the server-side secrets TELEGRAM_BOT_TOKEN and TELEGRAM_LOG_CHAT_ID.
+- /publish-owner sends generated test text and HTML to the configured Telegram Logs chat/channel.
+- /health reports Telegram configuration only.
+- Do not put secrets into index.html or wrangler.jsonc.
