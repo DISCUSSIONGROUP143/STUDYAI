@@ -1,5 +1,0 @@
-# Vercel Environment Variables
-# Add the real values in Vercel Project Settings -> Environment Variables.
-TELEGRAM_BOT_TOKEN=
-TELEGRAM_LOG_CHAT_ID=
-ALLOWED_ORIGIN=
